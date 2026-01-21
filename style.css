@@ -37,7 +37,9 @@ header {
   font-weight: 600;
 }
 
-.about, .skills, .contact { background: #1b1b1b; margin: 40px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+.about, .skills, .contact { background: #1b1b1b; margin: 40px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); 
+
+}
 
 
 .skills span {

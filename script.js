@@ -1,4 +1,3 @@
-// 1️⃣ Smooth scrolling for navbar links
 document.querySelectorAll("nav a").forEach(link => {
   link.addEventListener("click", e => {
     e.preventDefault();
@@ -10,7 +9,6 @@ document.querySelectorAll("nav a").forEach(link => {
 });
 
 
-// 2️⃣ Active menu highlight while scrolling
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav ul li a");
 
@@ -33,7 +31,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-// 3️⃣ Navbar background opacity change on scroll
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
@@ -44,8 +41,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
-// 4️⃣ Scroll reveal animation for sections
 const revealSections = document.querySelectorAll(".about, .skills, .contact");
 
 revealSections.forEach(section => {
@@ -69,8 +64,6 @@ function revealOnScroll() {
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
-
-// 5️⃣ Social icons click handling
 document.querySelector(".fa-linkedin").onclick = () => {
   window.open("https://www.linkedin.com", "_blank");
 };
